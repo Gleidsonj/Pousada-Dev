@@ -94,8 +94,8 @@ header {
 }
 
 .quartos {
-    width: 300px;
-    border-bottom: 2px solid #00836A;
+    width: 400px;
+    border-bottom: 1px solid #3b7863;
 }
 
 .quartos img{
@@ -109,7 +109,7 @@ header {
 
 /* seção - rota maps */
 
-#container-rota {
+.container-rota {
     margin: 80px 0;
     text-align: center;
     line-height: 50px;
@@ -118,12 +118,98 @@ header {
 #container-rota p {
     margin-bottom: 20px;
 }
-    
+
 /* sobre a pousada */
+
 .secao-sobre-pousada {
-    text-align: center;
-} 
+    margin: 0 auto;
+}
 
 #text-sobre {
-    line-height: 50px;
+    text-align: center;
+    line-height: 60px;
 }
+
+#text-sobre h2{
+    font-weight: 100;
+}
+
+/* seção sobre cards */
+
+.secao-sobre-cards {
+    max-width: 1024px;
+    display: flex;
+    margin: 50px auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.two-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    height: 130px;
+    width: 100%;
+}
+
+.card-img {
+    width: 30%;
+    height: 100%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%
+}
+
+.card-text {
+    padding: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* rodape - footer */
+
+footer {
+    background-color: #49997D;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer-cards {
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#copyright {
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.footer-cards div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* maps */
