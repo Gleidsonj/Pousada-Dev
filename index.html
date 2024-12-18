@@ -11,7 +11,7 @@
     <header>
         <div class="container-limite">
             <div class="title-pousada">
-                <p>Pousada Secreta</p>
+                <p>Pousada <span>Secreta</span></p>
             </div>
             <div class="header-links">
                 <a href="#sobre">SOBRE</a>
@@ -31,23 +31,26 @@
     </section>
 
     <section class="secao-welcome">
-        <h2>SEJA BEM-VINDO(A)!</h2>
-        <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
-        <p>Temos quartos para solteiro, casal ou família.</p>
+        <div class="welcome-text">
+            <h2>SEJA BEM-VINDO(A)!</h2>
+            <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
+            <p>Temos quartos para solteiro, casal ou família.</p>
+        </div>
+        
 
         <section class="container-quartos">
             <div class="quartos">
-                <img src="assets/img1.jpg" alt="quarto de solteiro">
+                <img src="assets/quarto-solteiro1.jpg" alt="quarto de solteiro">
                 <p>Quarto de Solteiro</p>
             </div>
 
             <div class="quartos">
-                <img src="assets/img2.jpg" alt="quarto de casal">
+                <img src="assets/quarto-casal1.jpg" alt="quarto de casal">
                 <p>Quarto de casal</p>
             </div>
 
             <div class="quartos">
-                <img src="assets/img3.jpg" alt="quarto familia">
+                <img src="assets/quarto-familia1.jpg" alt="quarto familia">
                 <p>Quarto Família</p>
             </div>
         </section>
@@ -57,39 +60,82 @@
         <h2>ROTA</h2>
         <p>Veja como chegar até a pousada.</p>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29384.943334619984!2d-43.364191!3d-22.982691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1734448733527!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29384.943334619984!2d-43.364191!3d-22.982691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1734448733527!5m2!1spt-BR!2sbr" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section class="secao-sobre-pousada">
-        <h2>SOBRE A POUSADA!</h2>
-        <p>Conheça um pouco sobre nossa pousada.</p>
+        <div id="text-sobre">
+            <h2>SOBRE A POUSADA!</h2>
+            <p>Conheça um pouco sobre nossa pousada.</p>
+        </div>
+        
 
-        <section>
-            <div>
-                <p><span>A pousada</span></p>
-                <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
-                <img src="assets/quarto-casal1.jpg" alt="">
+        <section class="secao-sobre-cards">
+            <div class="two-card">
+                <div class="card">
+                    <div class="card-text">
+                        <p><span>A pousada</span></p>
+                        <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                    </div>
+                    
+                    <img src="assets/img1.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p><span>Nossos quartos</span></p>
+                        <p>Os quartos oferecem TV's com canais a cabo, cozinha compacta e área de refeições, além de ar-cindicionado e guarda-roupa.</p>
+                    </div>
+                    
+                    <img src="assets/img2.jpg" alt="">
+                </div>
             </div>
-            <div>
-                <p><span>Nossos quartos</span></p>
-                <p>Os quartos oferecem TV's com canais a cabo, cozinha compacta e área de refeições, além de ar-cindicionado e guarda-roupa.</p>
-                <img src="assets/quarto-casal1.jpg" alt="">
+            
+            <div class="two-card">
+                <div class="card">
+                    <div class="card-text">
+                        <p><span>Alimentação</span></p>
+                        <p>A Pousada serve café de manhã em estilo continental ou buffet.
+                        Nossos restaurantes funcionam 24hrs.
+                        </p>
+                    </div>
+                    
+                    <img src="assets/img3.jpg" alt="">
+                </div>
+                <div class="card">
+                    <div class="card-text">
+                        <p><span>Recepção</span></p>
+                        <p>Nossa recepção fica aberta 24hrs.</p>
+                    </div>
+                    
+                    <img src="assets/img5.jpg" alt="">
+                </div>
             </div>
-            <div>
-                <p><span>Alimentação</span></p>
-                <p>A Pousada serve café de manhã em estilo continental ou buffet.
-                    Nossos restaurantes funcionam 24hrs.
-                </p>
-                <img src="assets/quarto-casal1.jpg" alt="">
-            </div>
-            <div>
-                <p><span>Recepção</span></p>
-                <p>Nossa recepção fica aberta 24hrs.</p>
-                <img src="assets/quarto-casal1.jpg" alt="">
-            </div>
+
         </section>
-
     </section>
+
+    <footer>
+        <div class="footer-cards">
+            <div>
+                <h3>Entre em contato conosco:</h3>
+            </div>
+            <div>
+                <p><img src="assets/icones/endereco.png" alt="">Entre em contato conosco:</p>
+            </div>
+            <div>
+                <p><img src="assets/icones/telefone.png" alt="">Cel: 552100000000</p>
+            </div>
+            <div>
+                <h3><img src="assets/icones/calendario.png" alt="">Faça sua reserva pelo Booking.com</h3>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p>Desenvolvido por "Gleidson Lima"</p>
+        </div>
+
+
+    </footer>
 
 </body>
 </html>

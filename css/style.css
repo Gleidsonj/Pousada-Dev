@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cabeçalho */
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.container-limite {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-pousada {
+   font-size: 22px;
+   color: #3D3D3D;
+}
+
+.title-pousada span {
+    color: #6592D3;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-size: 14px;
+} 
+
+/* seção imagem de fundo */
+.fundo-img {
+    background-image: url(../assets/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-fundo-reserva {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #1ca98bb0;
+    padding: 30px;
+    line-height: 60px;
+    border: 1px solid white;
+}
+
+.secao-fundo-reserva h1 {
+    font-size: 40px;
+}
+
+.secao-fundo-reserva p {
+    font-size: 20px;
+}
+
+/* seção - welcome */
+
+.secao-welcome {
+    margin: 50px auto;
+}
+
+.welcome-text {
+    text-align: center;
+    line-height: 50px;
+}
+
+.container-quartos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.quartos {
+    width: 300px;
+    border-bottom: 2px solid #00836A;
+}
+
+.quartos img{
+    width: 100%;
+
+}
+
+.quartos p {
+    padding: 10px;
+}
+
+/* seção - rota maps */
+
+#container-rota {
+    margin: 80px 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+#container-rota p {
+    margin-bottom: 20px;
+}
+    
+/* sobre a pousada */
+.secao-sobre-pousada {
+    text-align: center;
+} 
+
+#text-sobre {
+    line-height: 50px;
+}
